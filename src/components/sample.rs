@@ -68,7 +68,6 @@ pub fn Sample(cx: Scope) -> impl IntoView {
                 />
                 <button type="submit">"Greet"</button>
             </form>
-            <p>"test"</p>
 
             <p><b>{ move || greet_msg.get() }</b></p>
         </main>

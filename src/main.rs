@@ -1,9 +1,6 @@
-mod app;
-mod sample;
-
-use app::*;
+mod components;
+use components::{app::*, sample::*};
 use leptos::*;
-use sample::*;
 
 fn main() {
     mount_to_body(|cx| {
