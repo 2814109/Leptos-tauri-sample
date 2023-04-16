@@ -14,9 +14,8 @@ extern "C" {
 struct GreetArgs<'a> {
     name: &'a str,
 }
-
 #[component]
-pub fn App(cx: Scope) -> impl IntoView {
+pub fn Sample(cx: Scope) -> impl IntoView {
     let (name, set_name) = create_signal(cx, String::new());
     let (greet_msg, set_greet_msg) = create_signal(cx, String::new());
 
