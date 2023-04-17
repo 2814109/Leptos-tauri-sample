@@ -1,4 +1,9 @@
 # Tauri + Leptos
+## run
+```
+cargo tauri dev  
+```
+
 
 This template should help get you started developing with Tauri and Leptos.
 
